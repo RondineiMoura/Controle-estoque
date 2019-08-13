@@ -31,22 +31,22 @@
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.estoqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.atualizarEstoqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.cadastrarProdutosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.cadastrarCategoriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.produtosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.movimentaçãoDoEstoqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trocarSenhaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.cadastrarUsuáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblData = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.atualizarEstoqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,6 +77,17 @@
             this.estoqueToolStripMenuItem.Size = new System.Drawing.Size(78, 26);
             this.estoqueToolStripMenuItem.Text = "Estoque";
             // 
+            // atualizarEstoqueToolStripMenuItem
+            // 
+            this.atualizarEstoqueToolStripMenuItem.Name = "atualizarEstoqueToolStripMenuItem";
+            this.atualizarEstoqueToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
+            this.atualizarEstoqueToolStripMenuItem.Text = "Atualizar estoque";
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(222, 6);
+            // 
             // cadastrarProdutosToolStripMenuItem
             // 
             this.cadastrarProdutosToolStripMenuItem.Name = "cadastrarProdutosToolStripMenuItem";
@@ -84,11 +95,17 @@
             this.cadastrarProdutosToolStripMenuItem.Text = "Cadastrar produtos";
             this.cadastrarProdutosToolStripMenuItem.Click += new System.EventHandler(this.CadastrarProdutosToolStripMenuItem_Click);
             // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(222, 6);
+            // 
             // cadastrarCategoriasToolStripMenuItem
             // 
             this.cadastrarCategoriasToolStripMenuItem.Name = "cadastrarCategoriasToolStripMenuItem";
             this.cadastrarCategoriasToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
             this.cadastrarCategoriasToolStripMenuItem.Text = "Cadastrar categorias";
+            this.cadastrarCategoriasToolStripMenuItem.Click += new System.EventHandler(this.CadastrarCategoriasToolStripMenuItem_Click);
             // 
             // consultarToolStripMenuItem
             // 
@@ -105,6 +122,11 @@
             this.produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
             this.produtosToolStripMenuItem.Size = new System.Drawing.Size(267, 26);
             this.produtosToolStripMenuItem.Text = "Produtos";
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(264, 6);
             // 
             // movimentaçãoDoEstoqueToolStripMenuItem
             // 
@@ -127,6 +149,11 @@
             this.trocarSenhaToolStripMenuItem.Name = "trocarSenhaToolStripMenuItem";
             this.trocarSenhaToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
             this.trocarSenhaToolStripMenuItem.Text = "Trocar senha";
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(205, 6);
             // 
             // cadastrarUsuáriosToolStripMenuItem
             // 
@@ -158,32 +185,6 @@
             this.timer1.Enabled = true;
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
-            // 
-            // atualizarEstoqueToolStripMenuItem
-            // 
-            this.atualizarEstoqueToolStripMenuItem.Name = "atualizarEstoqueToolStripMenuItem";
-            this.atualizarEstoqueToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
-            this.atualizarEstoqueToolStripMenuItem.Text = "Atualizar estoque";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(222, 6);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(222, 6);
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(264, 6);
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(205, 6);
             // 
             // Inicio
             // 
